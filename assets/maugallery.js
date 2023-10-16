@@ -155,7 +155,6 @@
       });
       prev =
         imagesCollection[index - 1];
-        console.log(imagesCollection);
       $(".lightboxImage").attr("src", $(prev).attr("src"));
     },
     nextImage() {
