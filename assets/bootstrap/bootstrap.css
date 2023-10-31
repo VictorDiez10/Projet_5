@@ -277,6 +277,11 @@ textarea {
   .col-sm {
     flex: 1 0 0%;
   }
+
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
 }
 @media (min-width: 768px) {
   .col-md {
